@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Informasi aplikasi"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="16dp"
+            android:layout_weight="1"
+            android:maxLines="15"
+            android:text="1. Aplikasi ini berfungsi untuk mengelola uang saku anda
+2. Anda dapat memilih menginputkan uang saku anda dalam kategori harian , mingguan ,atau bulanan.
+3. Anda dapat melihat data pengeluaran uang saku anda dalam fitur laporan.
+4. Tersedia fitur notifikasi pengingat agar anda bisa hemat dan efektif menggunakan uang saku anda.
+5. Tersedia fitur target yang ingin dicapai dari sisa uang saku sehimgga dapat mengestimasi kapan target anda akan tercapai." />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Next" />
+    </RelativeLayout>
+
+
+</LinearLayout>
